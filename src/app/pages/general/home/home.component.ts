@@ -25,6 +25,7 @@ constructor(private router: Router){}
 	}
 
   login() {
+    window.open('example://www.myapp.com/anystring');
     if(this.selectedValue == "Manager" || this.selectedValue == "User_Agent"){
     console.log("Navigate to " + this.selectedValue + " landing page")
     this.router.navigate(['/about'], { queryParams:  {"value": this.selectedValue} });
