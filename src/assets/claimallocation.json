@@ -1,0 +1,261 @@
+{
+    "ClaimAllocation": {
+        "Unassigned_Claim":150,
+        "WIP": 100,
+        "Completed_Claim": 30,
+      "Client": [
+        {
+          "Id": "1",
+          "Full Name": "Jame",
+          "Description": "Need to add"
+        },
+        {
+          "Id": "2",
+          "Full Name": "Peter",
+          "Description": "Need to add"
+        },
+        {
+          "Id": "3",
+          "Full Name": "Jack",
+          "Description": "Need to add"
+        },
+        {
+          "Id": "4",
+          "Full Name": "Abbate",
+          "Description": "Need to add"
+        }
+      ],
+      "User": [
+        {
+          "Id": "1111",
+          "UserName": "Arun",
+          "First Name": "Arun",
+          "Last Name": "Kumar",
+          "Password": "Tyve@2129",
+          "IsActive": "yes"
+        },
+        {
+          "Id": "1112",
+          "UserName": "Anand",
+          "First Name": "Anand",
+          "Last Name": "Nathan",
+          "Password": "TtTa@2806",
+          "IsActive": "yes"
+        },
+        {
+          "Id": "1113",
+          "UserName": "Mani",
+          "First Name": "Mani",
+          "Last Name": "Vel",
+          "Password": "Xla$21qa",
+          "IsActive": "yes"
+        },
+        {
+          "Id": "1114",
+          "UserName": "Meena",
+          "First Name": "Meena",
+          "Last Name": "Ram",
+          "Password": "Sl10aa2#",
+          "IsActive": "yes"
+        }
+      ],
+      "Role": [
+        {
+          "Id": "1",
+          "RoleName": "Manager",
+          "Description": "Need to Add",
+          "IsActive": "Yes"
+        },
+        {
+          "Id": "2",
+          "RoleName": "Manager",
+          "Description": "Need to Add",
+          "IsActive": "Yes"
+        },
+        {
+          "Id": "3",
+          "RoleName": "Agent",
+          "Description": "Need to Add",
+          "IsActive": "Yes"
+        },
+        {
+          "Id": "4",
+          "RoleName": "Agent",
+          "Description": "Need to Add",
+          "IsActive": "Yes"
+        }
+      ],
+      "User Role link table": [
+        {
+          "Id": "111",
+          "UserId": "1",
+          "RoleId": "1",
+          "IsActive": "Yes"
+        },
+        {
+          "Id": "112",
+          "UserId": "2",
+          "RoleId": "1",
+          "IsActive": "Yes"
+        },
+        {
+          "Id": "113",
+          "UserId": "3",
+          "RoleId": "2",
+          "IsActive": "Yes"
+        },
+        {
+          "Id": "114",
+          "UserId": "4",
+          "RoleId": "2",
+          "IsActive": "Yes"
+        }
+      ],
+      "Claim": [
+        {
+          "Id": "100",
+          "PatientName": "Jame",
+          "ProviderName": "Rebella,Jeniefer",
+          "Claim Amount": "100000",
+          "Allowed Amount": "90000",
+          "Paid Amount": "90000",
+          "ClaimStatusId": "1",
+          "Last comment": "Approved"
+        },
+        {
+          "Id": "101",
+          "PatientName": "Peter",
+          "ProviderName": "Rebella,Jeniefer",
+          "Claim Amount": "50000",
+          "Allowed Amount": "35000",
+          "Paid Amount": "35000",
+          "ClaimStatusId": "0",
+          "Last comment": "Pending"
+        },
+        {
+          "Id": "103",
+          "PatientName": "Jack",
+          "ProviderName": "Rebella",
+          "Claim Amount": "230000",
+          "Allowed Amount": "215000",
+          "Paid Amount": "15000",
+          "ClaimStatusId": "0",
+          "Last comment": "Pending"
+        },
+        {
+          "Id": "104",
+          "PatientName": "Abbate",
+          "ProviderName": "Jeniefer",
+          "Claim Amount": "73000",
+          "Allowed Amount": "73000",
+          "Paid Amount": "73000",
+          "ClaimStatusId": "1",
+          "Last comment": "Approved"
+        }
+      ],
+      "Claim Detail": [
+        {
+          "Id": "200",
+          "ClaimId": "100",
+          "CPT/HCPC": "9901",
+          "Allowed Amount": "90000",
+          "Paid Amount": "9000"
+        },
+        {
+          "Id": "201",
+          "ClaimId": "101",
+          "CPT/HCPC": "9902",
+          "Allowed Amount": "35000",
+          "Paid Amount": "35000"
+        },
+        {
+          "Id": "202",
+          "ClaimId": "102",
+          "CPT/HCPC": "9903",
+          "Allowed Amount": "215000",
+          "Paid Amount": "15000"
+        },
+        {
+          "Id": "203",
+          "ClaimId": "103",
+          "CPT/HCPC": "9904",
+          "Allowed Amount": "73000",
+          "Paid Amount": "73000"
+        }
+      ],
+      "Claim Status": [
+        {
+          "Id": "300",
+          "Claim_Status": "Completed"
+        },
+        {
+          "Id": "301",
+          "Claim_Status": "Assigned"
+        },
+        {
+          "Id": "302",
+          "Claim_Status": "WIP"
+        },
+        {
+          "Id": "303",
+          "Claim Status": "Unassigned"
+        }
+      ],
+      "Claim Comment History": [
+        {
+          "Id": "111",
+          "Comment": "Assigned",
+          "Commentedby": "Arun"
+        },
+        {
+          "Id": "112",
+          "Comment": "Assigned",
+          "Commentedby": "Anand"
+        },
+        {
+          "Id": "113",
+          "Comment": "Assigned",
+          "Commentedby": "Mani"
+        },
+        {
+          "Id": "111",
+          "Comment": "Assigned",
+          "Commentedby": "Meena"
+        }
+      ],
+      "ClaimWorkflow": [
+        {
+          "Id": "501",
+          "ClaimId": "100",
+          "Assigner_Id": "1111",
+          "Assignee_Id": "1113",
+          "ClaimStatusId": "300",
+          "Createddate": "2023-12-17T11:21:00.000Z"
+        },
+        {
+          "Id": "502",
+          "ClaimId": "101",
+          "Assigner Id": "1112",
+          "Assignee_Id": "1113",
+          "ClaimStatusId": "301",
+          "Createddate": "2023-12-11T10:21:00.000Z"
+        },
+        {
+          "Id": "503",
+          "ClaimId": "102",
+          "Assigner Id": "1113",
+          "Assignee_Id": "1112",
+          "ClaimStatusId": "302",
+          "Createddate": "2023-11-17T05:21:00.000Z"
+        },
+        {
+          "Id": "504",
+          "ClaimId": "103",
+          "Assigner Id": "1114",
+          "Assignee_Id": "1111",
+          "ClaimStatusId": "303",
+          "Createddate": "2023-12-07T12:21:00.000Z"
+        }
+      ]
+    }
+  }

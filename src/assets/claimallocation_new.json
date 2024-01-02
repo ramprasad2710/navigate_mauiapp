@@ -1,0 +1,20 @@
+
+{
+      "ClaimAllocation":{
+        "Unassigned_Claim":150,
+        "WIP": 100,
+        "Completed_Claim": 30,
+      "data":  [
+        {"cname": "HME Client", "cno": 1001, "patientname": "Jame", "providername": "Rubella, Jennifer", "status": "Unassigned", "allowedamt": 2000, "paidamt": 0, "comment": "Test comment", "assignedto": "","viewmore" : ""},
+        {"cname": "HME Client", "cno": 1002, "patientname": "Peter", "providername": "Rubella, Jennifer", "status": "Unassigned", "allowedamt": 1500, "paidamt": 0, "comment": "Test comment", "assignedto": "","viewmore" : ""},
+        {"cname": "BT Client" , "cno": 1003, "patientname": "Jack", "providername": "Rubella, Jennifer", "status": "Assigned"  , "allowedamt": 1750, "paidamt": 0, "comment": "Test comment", "assignedto": "Agent","viewmore" : ""},
+        {"cname": "BT Client", "cno": 1004, "patientname": "Abbate", "providername": "Rubella, Jennifer", "status": "Assigned", "allowedamt": 2450, "paidamt": 0, "comment": "Test comment", "assignedto": "Agent","viewmore" : ""},
+        {"cname": "ABC Client", "cno": 1005, "patientname": "Paul", "providername": "Rubella, Jennifer", "status": "Unassigned", "allowedamt": 1500, "paidamt": 0, "comment": "Test comment", "assignedto": "","viewmore" : ""},
+        {"cname": "DEF Client", "cno": 1006, "patientname": "Stephen", "providername": "Rubella, Jennifer", "status": "Unassigned", "allowedamt": 1600, "paidamt": 0, "comment": "Test comment", "assignedto": "","viewmore" : ""},
+        {"cname": "ABC Client", "cno": 1007, "patientname": "Warner", "providername": "Rubella, Jennifer", "status": "Unassigned", "allowedamt": 1400, "paidamt": 0, "comment": "Test comment", "assignedto": "","viewmore" : ""},
+        {"cname": "DEF Client", "cno": 1008, "patientname": "David", "providername": "Rubella, Jennifer", "status": "Unassigned", "allowedamt": 1200, "paidamt": 0, "comment": "Test comment", "assignedto": "","viewmore" : ""},
+        {"cname": "XYZ Client", "cno": 1009, "patientname": "Mark", "providername": "Rubella, Jennifer", "status": "Assigned", "allowedamt": 3200, "paidamt": 0, "comment": "Test comment", "assignedto": "Agent","viewmore" : ""},
+        {"cname": "XYZ Client", "cno": 1010, "patientname": "Micheal", "providername": "Rubella, Jennifer", "status": "Assigned", "allowedamt": 1100, "paidamt": 0, "comment": "Test comment", "assignedto": "Agent","viewmore" : ""}
+      ]
+      }
+  }
